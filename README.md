@@ -5,7 +5,9 @@
  Prompt the user to enter their name with a printf
    Get input from the user for their name
  Display the user's name in a custom message saying to play a game
+```
 ### 2. Get a number
+```
  As a temp, pick 50 as a value for the randomNumber. This way, you can test the high/low code later
 ```
 ### 3. User guesses
