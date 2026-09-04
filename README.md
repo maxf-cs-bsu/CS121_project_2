@@ -9,12 +9,12 @@
 ### 3. User guesses
 * Start a While Loop with keepGoing = True
 * Ask the user for a number value as guessNumber
-* If guess is too high/low, ask user to input a new number
+* If guess > randomNumber OR if guess < randomNumber
 * Add +1 to score.
 * Keep track of score and display it each turn
-* If the user guesses the number correctly, display what the correct number was
+* If guess == randomNumber, printf("Great job  \n") // or something along those lines
 * Send a printf depending on their score (Below 7 is great/below 10 is ok/above 10 is a skill issue) //Special first try message?
-* Set keepGoing to False
+* Set keepGoing = False
 ### 4. Get a number: 2
 * Once everything else is set, write code to get a random int for the randomNumber value
 * Set limits as 1 to 100
