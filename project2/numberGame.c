@@ -6,7 +6,7 @@ int main(){
   char userName[20];
   printf("Hello! What's your name?: ");
   scanf("%s", userName);
-  printf("Nice to meet you %s! Lets play a game!  \n", userName);
+  printf("Nice to meet you %s! Lets play a game! I'm thinking of a number between 1 and 100.  \n", userName);
 
   int keepGoing = 1;
   int score = 1;
